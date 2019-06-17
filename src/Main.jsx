@@ -7,14 +7,14 @@ class Main extends Component {
         return (
             <Router>
                                   <div>
-            <div class="sidenav">
+            <div className="sidenav">
             
             <NavLink  exact activeClassName="selected" to={'/'}> Home </NavLink>
             <NavLink  activeClassName="selected" to={'/props'}> Props </NavLink>
   
           
           </div>
-          <div class="main">
+          <div className="main">
            <Switch>
            <Route exact path='/' component={Home} />
            <Route exact path='/Props' component={Props} />

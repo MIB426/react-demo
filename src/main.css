@@ -38,3 +38,38 @@ body {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+.info {
+  background-color: #e7f3fe;
+  border-left: 6px solid #2196F3;
+}
+
+h1{
+  color: goldenrod;
+ 
+}
+h2{
+  color: blue;
+}
+h1,
+h1 ~ *,
+h2 ~ h1,
+h2 ~ h1 ~ *,
+h3 ~ h1,
+h3 ~ h1 ~ * {
+    margin-left: 0px;
+}
+
+
+h2,
+h2 ~ *,
+h1 ~ h2,
+h1 ~ h2 ~ *:not(h1):not(h3) {
+    margin-left: 40px;
+}
+
+h3,
+h3 ~ *,
+h1 ~ h3,
+h1 ~ h3 ~ *:not(h1):not(h2) {
+    margin-left: 80px;
+}
