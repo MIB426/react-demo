@@ -2,7 +2,13 @@ import React from "react"
 
 class Home extends React.Component{
     render(){
-        return <p>這裡是首頁</p>
+        return( 
+        <div><p>import {'{'} render {'}'} from 'react-dom';</p>
+          <p>render({'<'}App {'/>'}, document.getElementById('root'));</p>
+        <p>import reactDOM from 'reatc-dom';</p>
+        <p>ReactDOM.render({'<'} App {'/>'}, document.getElementById('root'));</p>
+      </div>
+        )
     }
 }
 
